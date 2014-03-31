@@ -1,0 +1,23 @@
+/*************************************************
+GENERAL
+*************************************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  background-color:#4A95AD;
+}
+
+header {
+  float: center;
+  width: 100%;
+  text-decoration: underline;
+}
+  
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
