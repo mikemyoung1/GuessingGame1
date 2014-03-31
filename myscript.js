@@ -20,7 +20,7 @@ $('#submit').on('click', function(){
 	userInput = checkInput(parseInt($("#input1").val(), 10));
 		if (userInput === winningNumber) {
 			$('#status').html("You're a Winner!");
-			$('#status').css('color: #f62817');
+			$('#status').css('color', '#f62817');
 			} 
 		else if (((userInput) - winningNumber) <= 10 && ((userInput) - winningNumber) > 0) {
 			$('#status').html("Hot! Guess lower.");
